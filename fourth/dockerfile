@@ -1,0 +1,4 @@
+FROM python
+WORKDIR ./data
+COPY requirements.txt .
+CMD [pip, install, -r ,./requirements.txt]
